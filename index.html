@@ -12,24 +12,26 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            (background: url('https://raw.githubusercontent.com/fireseeds55/fireseeds55/main/desmatadas-jpg.jpg') no-repeat center center fixed;
+            background: url('https://raw.githubusercontent.com/fireseeds55/fireseeds55/main/desmatadas-jpg.jpg') no-repeat center center fixed;
             background-size: cover;
             font-family: Arial, sans-serif;
         }
         .btn-comprar {
+            position: relative;
             padding: 15px 30px;
             font-size: 20px;
             color: #fff;
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: #28a745;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             cursor: pointer;
-            transition: background-color 0.3s ease, transform 0.3s ease;
+            box-shadow: 0 5px #1c7430;
+            transition: all 0.3s ease;
         }
-        .btn-comprar:hover {
-            background-color: rgba(0, 0, 0, 0.9);
-            transform: scale(1.05);
+        .btn-comprar:active {
+            top: 5px;
+            box-shadow: 0 2px #1c7430;
         }
     </style>
 </head>
