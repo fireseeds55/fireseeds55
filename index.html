@@ -1,45 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compre Aqui</title>
+    <title>Let's Green the World</title>
     <style>
         body {
             margin: 0;
             padding: 0;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             background: url('https://raw.githubusercontent.com/fireseeds55/fireseeds55/main/desmatadas-jpg.jpg') no-repeat center center fixed;
             background-size: cover;
             font-family: Arial, sans-serif;
+            color: #000;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            border-radius: 10px;
         }
         .btn-comprar {
             padding: 15px 30px;
             font-size: 20px;
             color: #fff;
-            background-color: #ff4500; /* Cor laranja vibrante */
+            background-color: #28a745;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             cursor: pointer;
-            box-shadow: 0 4px #c13700; /* Sombra para efeito 3D */
+            box-shadow: 0 4px #1c7430;
             transition: background-color 0.3s ease, transform 0.3s ease;
         }
         .btn-comprar:hover {
-            background-color: #e03e00; /* Cor ligeiramente mais escura no hover */
-            transform: translateY(-2px); /* Efeito de elevação no hover */
+            background-color: #218838;
+            transform: translateY(-2px);
         }
         .btn-comprar:active {
-            background-color: #c13700; /* Cor mais escura ao clicar */
-            box-shadow: 0 2px #a12e00; /* Reduz a sombra ao clicar */
-            transform: translateY(0); /* Reposição ao clicar */
+            background-color: #1e7e34;
+            box-shadow: 0 2px #1c7430;
+            transform: translateY(0);
         }
     </style>
 </head>
 <body>
+    <h1>Let's Green the World</h1>
     <a href="#" class="btn-comprar">COMPRAR</a>
 </body>
 </html>
