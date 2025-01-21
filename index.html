@@ -17,21 +17,25 @@
             font-family: Arial, sans-serif;
         }
         .btn-comprar {
-            position: relative;
             padding: 15px 30px;
             font-size: 20px;
             color: #fff;
-            background-color: #28a745;
+            background-color: #ff4500; /* Cor laranja vibrante */
             border: none;
             border-radius: 5px;
             text-decoration: none;
             cursor: pointer;
-            box-shadow: 0 5px #1c7430;
-            transition: all 0.3s ease;
+            box-shadow: 0 4px #c13700; /* Sombra para efeito 3D */
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .btn-comprar:hover {
+            background-color: #e03e00; /* Cor ligeiramente mais escura no hover */
+            transform: translateY(-2px); /* Efeito de elevação no hover */
         }
         .btn-comprar:active {
-            top: 5px;
-            box-shadow: 0 2px #1c7430;
+            background-color: #c13700; /* Cor mais escura ao clicar */
+            box-shadow: 0 2px #a12e00; /* Reduz a sombra ao clicar */
+            transform: translateY(0); /* Reposição ao clicar */
         }
     </style>
 </head>
