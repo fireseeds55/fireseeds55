@@ -6,46 +6,34 @@
     <title>Compre Aqui</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            margin: 0;
+            background: url('https://images.pexels.com/photos/1234567/pexels-photo-1234567.jpeg') no-repeat center center fixed;
+            background-size: cover;
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-        }
-        .container {
-            text-align: center;
-            background: #fff;
-            padding: 50px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            margin-bottom: 20px;
-            color: #333;
         }
         .btn-comprar {
-            display: inline-block;
             padding: 15px 30px;
-            font-size: 18px;
+            font-size: 20px;
             color: #fff;
-            background-color: #007bff;
+            background-color: #28a745;
             border: none;
             border-radius: 5px;
             text-decoration: none;
             cursor: pointer;
-            transition: background-color 0.3s ease;
+            transition: background-color 0.3s ease, transform 0.3s ease;
         }
         .btn-comprar:hover {
-            background-color: #0056b3;
+            background-color: #218838;
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>COMPRE AQUI</h1>
-        <a href="#" class="btn-comprar">Comprar</a>
-    </div>
+    <a href="#" class="btn-comprar">COMPRAR</a>
 </body>
 </html>
